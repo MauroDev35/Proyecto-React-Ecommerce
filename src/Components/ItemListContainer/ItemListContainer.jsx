@@ -1,7 +1,9 @@
+import "./itemListContainer.css"
+
 /* eslint-disable react/prop-types */
 const ItemListContainer = ({saludo}) => {
   return (
-    <div>
+    <div className="itemListContainer">
       <p>{saludo}</p>
     </div>
   )
